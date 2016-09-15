@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-color: #09C;
+	font-size: 24px;
+	font-weight:3000;
+}
+
+body p
+{
+	color: #FFF;
+}
+
+.boton
+{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	text-decoration: underline;
+	background-color: #C60;
+}
+
+
+#texto {
+	color: #F0F;
+	text-decoration: underline;
+	font-weight:3000;
+}
+
+ul
+{
+	margin-left:50px;	
+}
+
+.formularios
+{
+	margin-top: 30px;
+}
+
+.fluo
+{
+	color:#0F0;
+	font-weight:2000;
+}
+
+#about
+{
+	margin-top:20px;
+}
+
+#op
+{
+        margin-left:158px;
+}
+
+

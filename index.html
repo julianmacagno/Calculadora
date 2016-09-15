@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+	<h1>Calculadora</h1>
+	<p>Escriba los valores en los campos y seleccione la operacion a realizar:
+    	
+    </p>
+    
+<form type="submit" name="formulario" action="calculadoraphp.php" method="post">
+           <div class="nombre">
+           		<label> SU NOMBRE <input type="text" name="usuario" id="texto">
+				</label>
+            </div>
+           
+        <div class="formularios"> 
+            <p>Ingrese los datos: </p>
+                Numero 1: <input type="number" name="input1">  <!-- este es el boton -->
+            <br/>
+                    <select name="op" id="op">
+                        <option value="" selected="true"> Elija una operacion </option>
+                        <option value="s"> Suma </option>
+                        <option value="r"> Resta </option>
+                        <option value="m"> Multiplicacion </option>
+                        <option value="d"> Division </option>
+                    </select>
+            <br/>        
+                Numero 2: <input type="number" name="input2"> 
+                <br/>
+                <input type="submit" id="enviar" class="boton" value="Calcular">
+        </div>
+</form>
+    
+    <p id="about" >Programado por Julian <span class="fluo"> Macagno</span>.
+        <ul>
+            <li> Universidad Blas Pascal </li>
+        </ul>
+    </p>
+    
+</body>
+</html>
